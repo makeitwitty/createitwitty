@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Request - Create it Witty</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ambient-overlay"></div>
+    
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="brand-header">
+                <h1 class="brand-name">Create it Witty</h1>
+                <p class="brand-tagline">Unique Custom Artifacts</p>
+            </div>
+            
+            <div class="navigation-section">
+                <div class="section-title">Navigation</div>
+                <div class="nav-list">
+                    <div class="nav-item">
+                        <a href="index.html" class="nav-name">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="about.html" class="nav-name">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="process.html" class="nav-name">Process</a>
+                    </div>
+                    <div class="nav-item active">
+                        <span class="nav-name">Custom Requests</span>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-name">Login</span>
+                    </div>
+                    <div class="nav-item">
+                        <a href="contact.html" class="nav-name">Contact</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="custom-request-note">
+                <p class="note-text">Custom artifacts emerge from the same joyful making process. Please allow ample time for creation to unfold naturally.</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="page-header">
+                <h1 class="page-title">Custom Requests</h1>
+                <p class="page-subtitle">Collaborative artifact creation</p>
+            </div>
+            
+            <div class="request-intro">
+                <div class="intro-section">
+                    <h2 class="section-header">How Custom Requests Work</h2>
+                    <div class="intro-content">
+                        <p class="content-text">Custom artifacts begin with a conversation, not a specification. I'm interested in the spark that inspired your request—the feeling, need, or curiosity that wants to take physical form through making.</p>
+                        
+                        <p class="content-text">This is not a traditional commission process. Like all my making, custom artifacts emerge from the joy of creation rather than predetermined outcomes. Some concepts may simmer for months before the right approach reveals itself through the making process.</p>
+                        
+                        <p class="content-text">The most successful custom artifacts happen when we both embrace the poetry of making—remaining open to what wants to emerge rather than forcing what we think should exist.</p>
+                    </div>
+                </div>
+                
+                <div class="expectations-section">
+                    <h2 class="section-header">Setting Expectations</h2>
+                    <div class="expectations-grid">
+                        <div class="expectation-card">
+                            <h3 class="expectation-title">No Hard Deadlines</h3>
+                            <p class="expectation-text">Artifacts cannot be rushed. Your piece will be completed when it's ready, which may take 3-12 months depending on complexity and my current understanding of your needs.</p>
+                        </div>
+                        
+                        <div class="expectation-card">
+                            <h3 class="expectation-title">Collaborative Process</h3>
+                            <p class="expectation-text">You'll be involved in key decisions throughout creation, but the final form will emerge through our dialogue rather than from predetermined specifications.</p>
+                        </div>
+                        
+                        <div class="expectation-card">
+                            <h3 class="expectation-title">Quality Over Speed</h3>
+                            <p class="expectation-text">Every aspect receives the same attention as my regular artifacts. Compromising quality for timeline is never an option.</p>
+                        </div>
+                        
+                        <div class="expectation-card">
+                            <h3 class="expectation-title">Unique Outcome</h3>
+                            <p class="expectation-text">Your artifact will be truly one-of-a-kind. I don't repeat custom designs, ensuring your piece remains completely unique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="request-form-section">
+                <h2 class="section-header">Request Form</h2>
+                <p class="form-intro">Please take time with these questions. Thoughtful responses lead to better artifacts.</p>
+                
+                <form class="custom-request-form" id="customRequestForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="need" class="form-label">What need or desire inspired this request?</label>
+                        <textarea id="need" name="need" class="form-textarea" rows="4" placeholder="Describe the experience you want to create or enhance in your daily life..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="current-solution" class="form-label">How do you currently address this need?</label>
+                        <textarea id="current-solution" name="current-solution" class="form-textarea" rows="3" placeholder="What tools, objects, or methods do you use now, and where do they fall short?" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="environment" class="form-label">Where will this artifact live?</label>
+                        <textarea id="environment" name="environment" class="form-textarea" rows="3" placeholder="Describe the space, lighting, and context where you'll interact with this artifact..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interaction" class="form-label">How do you imagine interacting with it?</label>
+                        <textarea id="interaction" name="interaction" class="form-textarea" rows="4" placeholder="Daily ritual, occasional use, constant presence? What would the ideal interaction feel like?" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="materials" class="form-label">Material preferences or constraints</label>
+                        <textarea id="materials" name="materials" class="form-textarea" rows="3" placeholder="Any materials you're drawn to or want to avoid? Consider texture, weight, temperature..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="timeline" class="form-label">Timeline considerations</label>
+                        <textarea id="timeline" name="timeline" class="form-textarea" rows="2" placeholder="Any relevant context about timing, though I cannot guarantee specific delivery dates..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="budget" class="form-label">Budget range</label>
+                        <select id="budget" name="budget" class="form-select" required>
+                            <option value="">Select a range...</option>
+                            <option value="5000-15000">₹ 5,000 - ₹ 15,000</option>
+                            <option value="15000-30000">₹ 15,000 - ₹ 30,000</option>
+                            <option value="30000-50000">₹ 30,000 - ₹ 50,000</option>
+                            <option value="50000+">₹ 50,000+</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inspiration" class="form-label">Anything else that might inspire the artifact?</label>
+                        <textarea id="inspiration" name="inspiration" class="form-textarea" rows="4" placeholder="Books, experiences, memories, other objects you love, philosophical concepts..."></textarea>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Submit Request</button>
+                        <button type="reset" class="btn">Clear Form</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="next-steps-section">
+                <h2 class="section-header">What Happens Next</h2>
+                <div class="steps-content">
+                    <p class="content-text"><strong>Response:</strong> I'll respond within 2-3 weeks to let you know if your request resonates with my current creative direction.</p>
+                    
+                    <p class="content-text"><strong>Dialogue:</strong> If we move forward, we'll have several conversations to deepen my understanding of your needs and explore possibilities.</p>
+                    
+                    <p class="content-text"><strong>Contemplation:</strong> Your request will enter my contemplation process, which may take several months before active creation begins.</p>
+                    
+                    <p class="content-text"><strong>Updates:</strong> I'll provide periodic updates on the artifact's development, including any insights or challenges that arise.</p>
+                    
+                    <p class="content-text"><strong>Completion:</strong> When your artifact is ready, you'll receive photos and documentation before shipping.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="custom-request.js"></script>
+</body>
+</html>

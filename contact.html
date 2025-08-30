@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Create it Witty</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ambient-overlay"></div>
+    
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="brand-header">
+                <h1 class="brand-name">Create it Witty</h1>
+                <p class="brand-tagline">Unique Custom Artifacts</p>
+            </div>
+            
+            <div class="navigation-section">
+                <div class="section-title">Navigation</div>
+                <div class="nav-list">
+                    <div class="nav-item">
+                        <a href="index.html" class="nav-name">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="about.html" class="nav-name">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="process.html" class="nav-name">Process</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="custom-request.html" class="nav-name">Custom Requests</a>
+                    </div>
+                    <div class="nav-item">
+                        <span class="nav-name">Login</span>
+                    </div>
+                    <div class="nav-item active">
+                        <span class="nav-name">Contact</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="custom-request-note">
+                <p class="note-text">Every message is read personally. I respond to each inquiry with the same attention given to my making.</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="page-header">
+                <h1 class="page-title">Contact</h1>
+                <p class="page-subtitle">Let's start a conversation</p>
+            </div>
+            
+            <div class="contact-methods">
+                <div class="contact-section">
+                    <h2 class="section-header">Get in Touch</h2>
+                    <div class="contact-grid">
+                        <div class="contact-card">
+                            <div class="contact-icon">📧</div>
+                            <h3 class="contact-method">Email</h3>
+                            <p class="contact-detail">hello@createitwitty.com</p>
+                            <p class="contact-description">For inquiries about artifacts, custom requests, or general conversation. I typically respond within 2-3 days.</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">📱</div>
+                            <h3 class="contact-method">Instagram</h3>
+                            <p class="contact-detail">@createitwitty</p>
+                            <p class="contact-description">Behind-the-scenes glimpses of the making process, work-in-progress shots, and studio updates.</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">💌</div>
+                            <h3 class="contact-method">Newsletter</h3>
+                            <p class="contact-detail">Monthly updates</p>
+                            <p class="contact-description">Quiet notes about new collections, thoughts on making, and occasional insights from the workshop.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-section">
+                    <h2 class="section-header">Workshop Location</h2>
+                    <div class="location-info">
+                        <p class="content-text">The workshop is located in a quiet corner of the city where time moves differently. While it's primarily a making space rather than a showroom, I occasionally welcome visitors by appointment.</p>
+                        
+                        <p class="content-text">If you'd like to see artifacts in person or discuss a custom request face-to-face, reach out via email to arrange a visit. These conversations often lead to the most meaningful collaborations.</p>
+                        
+                        <div class="location-details">
+                            <p class="detail-label">Studio Visits</p>
+                            <p class="detail-text">By appointment only • Email to arrange</p>
+                            
+                            <p class="detail-label">Location</p>
+                            <p class="detail-text">Shared upon appointment confirmation</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-section">
+                    <h2 class="section-header">Quick Contact Form</h2>
+                    <p class="form-intro">For brief messages or initial inquiries. For custom requests, please use the dedicated custom request form.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Name</label>
+                                <input type="text" id="contact-name" name="name" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">Email</label>
+                                <input type="email" id="contact-email" name="email" class="form-input" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select id="subject" name="subject" class="form-select" required>
+                                <option value="">What brings you here?</option>
+                                <option value="general-inquiry">General Inquiry</option>
+                                <option value="artifact-question">Question About an Artifact</option>
+                                <option value="custom-interest">Custom Request Interest</option>
+                                <option value="studio-visit">Studio Visit Request</option>
+                                <option value="press-media">Press/Media</option>
+                                <option value="collaboration">Collaboration Opportunity</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="6" placeholder="Share what's on your mind..." required></textarea>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <button type="reset" class="btn">Clear</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="contact-section">
+                    <h2 class="section-header">Response Expectations</h2>
+                    <div class="expectations-content">
+                        <p class="content-text">I read every message personally and respond to each with care. My making practice includes dedicated time for correspondence, treating each exchange as part of the creative process.</p>
+                        
+                        <div class="response-timeline">
+                            <div class="timeline-item">
+                                <span class="timeline-label">Simple Inquiries</span>
+                                <span class="timeline-time">2-3 days</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <span class="timeline-label">Custom Request Discussions</span>
+                                <span class="timeline-time">1-2 weeks</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <span class="timeline-label">Studio Visit Arrangements</span>
+                                <span class="timeline-time">3-5 days</span>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <span class="timeline-label">Press/Media Requests</span>
+                                <span class="timeline-time">1 week</span>
+                            </div>
+                        </div>
+                        
+                        <p class="content-text">If you haven't heard back within these timeframes, please feel free to follow up. Sometimes messages get lost in the digital ether, and a gentle reminder is always welcome.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

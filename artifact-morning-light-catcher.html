@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PAGE TITLE - Edit the artifact name here -->
+    <title>Morning Light Catcher - Create it Witty</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ambient-overlay"></div>
+    
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="brand-header">
+                <h1 class="brand-name">Create it Witty</h1>
+                <p class="brand-tagline">Unique Custom Artifacts</p>
+            </div>
+            
+            <div class="artifact-navigation">
+                <div class="section-title">Navigation</div>
+                <div class="nav-list">
+                    <div class="nav-item">
+                        <a href="index.html" class="nav-name">← Back to Collection</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="about.html" class="nav-name">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="process.html" class="nav-name">Process</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="custom-request.html" class="nav-name">Custom Requests</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="contact.html" class="nav-name">Contact</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SIDEBAR INFO - Edit artifact details here -->
+            <div class="artifact-quick-info">
+                <div class="section-title">Quick Info</div>
+                <div class="quick-info-item">
+                    <span class="info-label">Edition</span>
+                    <span class="info-value">8/12 Available</span> <!-- EDIT: Change availability status -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Collection</span>
+                    <span class="info-value">Domestic Series</span> <!-- EDIT: Change collection name -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Status</span>
+                    <span class="info-value status-available">Available</span> <!-- EDIT: Change status (status-available or status-sold-out) -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Created</span>
+                    <span class="info-value">Spring 2024</span> <!-- EDIT: Change creation time -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <!-- HEADER SECTION - Edit artifact name and description here -->
+            <div class="artifact-header">
+                <div class="artifact-breadcrumb">
+                    <span class="breadcrumb-item">Domestic Series</span> <!-- EDIT: Change collection name -->
+                    <span class="breadcrumb-separator">→</span>
+                    <span class="breadcrumb-current">Morning Light Catcher</span> <!-- EDIT: Change artifact name -->
+                </div>
+                <h1 class="artifact-title">Morning Light Catcher</h1> <!-- EDIT: Change artifact name -->
+                <p class="artifact-subtitle">Gentle light filtering for thoughtful mornings</p> <!-- EDIT: Change subtitle/description -->
+            </div>
+            
+            <div class="artifact-content">
+                <div class="artifact-visual-section">
+                    <!-- MAIN ARTIFACT ILLUSTRATION - Edit the SVG here -->
+                    <div class="artifact-main-image">
+                        <svg viewBox="0 0 400 160" class="artifact-detail-silhouette">
+                            <!-- EDIT THIS SVG: Replace with artifact-specific illustration -->
+                            <rect x="120" y="40" width="160" height="80" rx="8" fill="currentColor" opacity="0.7"/>
+                            <circle cx="140" cy="60" r="12" fill="currentColor" opacity="0.3"/>
+                            <circle cx="200" cy="60" r="12" fill="currentColor" opacity="0.5"/>
+                            <circle cx="260" cy="60" r="12" fill="currentColor" opacity="0.3"/>
+                            <circle cx="140" cy="100" r="12" fill="currentColor" opacity="0.5"/>
+                            <circle cx="200" cy="100" r="12" fill="currentColor" opacity="0.3"/>
+                            <circle cx="260" cy="100" r="12" fill="currentColor" opacity="0.5"/>
+                            <path d="M100,60 L120,60" stroke="currentColor" stroke-width="3"/>
+                            <path d="M280,100 L300,100" stroke="currentColor" stroke-width="3"/>
+                            <path d="M160,30 Q200,10 240,30" stroke="currentColor" stroke-width="2" fill="none" opacity="0.6"/>
+                        </svg>
+                    </div>
+                    
+                    <!-- GALLERY SECTION - Edit media files and descriptions -->
+                    <div class="artifact-gallery">
+                        <div class="gallery-header">
+                            <h3 class="gallery-title">Gallery</h3>
+                            <p class="gallery-subtitle">Photos and videos from the making process</p>
+                        </div>
+                        
+                        <div class="media-grid">
+                            <!-- EDIT MEDIA ITEMS: Change data-src paths and labels for each artifact -->
+                            <div class="media-item photo-item" data-type="image" data-src="images/light-catcher/wood-selection.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/light-catcher/wood-selection.jpg" alt="Material Selection" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Material Selection</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/light-catcher/carving.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/light-catcher/carving.jpg" alt="Frame Construction" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Frame Construction</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item video-item" data-type="video" data-src="images/light-catcher/bell-tuning.mp4">
+                                <div class="media-thumbnail">
+                                    <video class="thumbnail-video" muted>
+                                        <source src="images/light-catcher/bell-tuning.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">▶️</div>
+                                        <div class="overlay-label">Light Testing</div> <!-- EDIT: Change label -->
+                                        <div class="video-duration">1:38</div> <!-- EDIT: Change duration -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/light-catcher/oil-finish.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/light-catcher/oil-finish.jpg" alt="Filter Attachment" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Filter Attachment</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/light-catcher/complete-series.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/light-catcher/complete-series.jpg" alt="Complete Series" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Complete Series</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item video-item" data-type="video" data-src="images/light-catcher/sound-demo.mp4">
+                                <div class="media-thumbnail">
+                                    <video class="thumbnail-video" muted>
+                                        <source src="images/light-catcher/sound-demo.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">▶️</div>
+                                        <div class="overlay-label">Morning Demo</div> <!-- EDIT: Change label -->
+                                        <div class="video-duration">2:05</div> <!-- EDIT: Change duration -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="gallery-note">
+                            <!-- EDIT: Change gallery description -->
+                            <p class="note-text">Each piece creates unique light patterns throughout the day. Photos and videos show the making process rather than polished marketing shots.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- DETAILED CONTENT SECTIONS - Edit all story, materials, usage, and edition details -->
+                <div class="artifact-details-section">
+                    <div class="detail-section">
+                        <h2 class="section-header">The Story</h2>
+                        <div class="story-content">
+                            <!-- EDIT: Replace with artifact-specific story -->
+                            <p class="content-text">This piece began with a simple observation: how morning light transforms ordinary spaces into something worth pausing for. Living in a city apartment, I found myself missing those gentle transitions that happen naturally in homes with better light.</p>
+                            
+                            <p class="content-text">The first version was overly complex—multiple filters, adjustable angles, intricate mechanisms. But morning light doesn't need management, just gentle guidance. The breakthrough came when I simplified it down to a basic frame with carefully positioned filters that catch and redirect light without overpowering it.</p>
+                            
+                            <p class="content-text">Each catcher is designed to work with a specific window orientation—east-facing for morning glow, west-facing for afternoon warmth. The filters are subtle enough to preserve the natural character of your space while adding just enough softness to make ordinary moments feel more intentional.</p>
+                            
+                            <p class="content-text">Made from ash wood with hand-ground glass filters, each piece interacts differently with changing seasons and weather. Winter light becomes warmer, summer light gentler, cloudy days get a hint of brightness they didn't have before.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Materials & Construction</h2>
+                        <div class="specs-grid">
+                            <!-- EDIT: Update all specifications -->
+                            <div class="spec-item">
+                                <span class="spec-label">Primary Material</span>
+                                <span class="spec-value">Ash Wood</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Filter Material</span>
+                                <span class="spec-value">Hand-ground Glass</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Finish</span>
+                                <span class="spec-value">Natural Wax, Matte</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Dimensions</span>
+                                <span class="spec-value">28cm × 20cm × 3cm</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Weight</span>
+                                <span class="spec-value">~380g</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Creation Time</span>
+                                <span class="spec-value">~12 hours per piece</span>
+                            </div>
+                        </div>
+                        
+                        <div class="construction-notes">
+                            <!-- EDIT: Update construction details -->
+                            <p class="content-text">Each frame is cut from a single piece of ash, with finger joints at the corners for strength without metal hardware. The glass filters are hand-ground to create subtle texture that softens harsh light while preserving clarity.</p>
+                            
+                            <p class="content-text">The finish is minimal—just enough wax to protect the wood while maintaining its natural texture. The glass requires no maintenance, developing a slight patina over time that only improves its light-softening properties.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Living With It</h2>
+                        <div class="usage-content">
+                            <!-- EDIT: Update usage information -->
+                            <p class="content-text">Mount it on a window that gets direct light sometime during the day—morning east-facing windows work beautifully, but afternoon west-facing ones create their own magic. The filters work best when the light passes through at an angle, creating gentle patterns on walls and surfaces.</p>
+                            
+                            <p class="content-text">It doesn't dramatically change your space—instead, it makes you notice light in ways you hadn't before. Mornings become slightly more intentional, afternoon reading spots get a warm glow, evening light stretches a little longer.</p>
+                            
+                            <p class="content-text">The wood naturally darkens over years of sun exposure, and the glass develops a subtle weathering that only improves its light-filtering properties. It becomes more beautiful with age and use, not less.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Edition Details</h2>
+                        <div class="edition-info">
+                            <!-- EDIT: Update edition information -->
+                            <p class="content-text">Twelve pieces were created between March and May 2024. Each is numbered and optimized for specific window orientations—some work better with morning light, others with afternoon sun, based on the glass grinding patterns.</p>
+                            
+                            <div class="edition-status">
+                                <div class="status-item">
+                                    <span class="status-label">Total Made</span>
+                                    <span class="status-value">12 pieces</span> <!-- EDIT: Update quantity -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Available</span>
+                                    <span class="status-value status-available">8 remaining</span> <!-- EDIT: Update availability -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Price</span>
+                                    <span class="status-value">₹ 11,200</span> <!-- EDIT: Update price -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Completion Date</span>
+                                    <span class="status-value">May 2024</span> <!-- EDIT: Update completion date -->
+                                </div>
+                            </div>
+                            
+                            <div class="availability-note">
+                                <!-- EDIT: Update availability message -->
+                                <p class="note-text">Each piece is designed for specific light conditions. When requesting one, mention your window orientation and the times of day you get direct light for the best match.</p>
+                                
+                                <div class="next-steps">
+                                    <a href="custom-request.html" class="btn btn-primary">Request Something Similar</a>
+                                    <a href="index.html" class="btn">View Other Artifacts</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Media Modal -->
+    <div class="media-modal" id="mediaModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-media-container" id="modalMediaContainer">
+                <!-- Media content will be injected here -->
+            </div>
+            <div class="modal-info">
+                <h3 class="modal-title" id="modalTitle"></h3>
+                <p class="modal-description" id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="artifact-morning-light-catcher-gallery.js"></script>
+</body>
+</html>

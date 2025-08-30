@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PAGE TITLE - Edit the artifact name here -->
+    <title>Balance Stones - Create it Witty</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ambient-overlay"></div>
+    
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="brand-header">
+                <h1 class="brand-name">Create it Witty</h1>
+                <p class="brand-tagline">Unique Custom Artifacts</p>
+            </div>
+            
+            <div class="artifact-navigation">
+                <div class="section-title">Navigation</div>
+                <div class="nav-list">
+                    <div class="nav-item">
+                        <a href="index.html" class="nav-name">← Back to Collection</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="about.html" class="nav-name">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="process.html" class="nav-name">Process</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="custom-request.html" class="nav-name">Custom Requests</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="contact.html" class="nav-name">Contact</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SIDEBAR INFO - Edit artifact details here -->
+            <div class="artifact-quick-info">
+                <div class="section-title">Quick Info</div>
+                <div class="quick-info-item">
+                    <span class="info-label">Edition</span>
+                    <span class="info-value">23/40 Available</span> <!-- EDIT: Change availability status -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Collection</span>
+                    <span class="info-value">Kinetic Series</span> <!-- EDIT: Change collection name -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Status</span>
+                    <span class="info-value status-available">Available</span> <!-- EDIT: Change status (status-available or status-sold-out) -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Created</span>
+                    <span class="info-value">Winter 2024</span> <!-- EDIT: Change creation time -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <!-- HEADER SECTION - Edit artifact name and description here -->
+            <div class="artifact-header">
+                <div class="artifact-breadcrumb">
+                    <span class="breadcrumb-item">Kinetic Series</span> <!-- EDIT: Change collection name -->
+                    <span class="breadcrumb-separator">→</span>
+                    <span class="breadcrumb-current">Balance Stones</span> <!-- EDIT: Change artifact name -->
+                </div>
+                <h1 class="artifact-title">Balance Stones</h1> <!-- EDIT: Change artifact name -->
+                <p class="artifact-subtitle">Objects for mindful balancing and contemplation</p> <!-- EDIT: Change subtitle/description -->
+            </div>
+            
+            <div class="artifact-content">
+                <div class="artifact-visual-section">
+                    <!-- MAIN ARTIFACT ILLUSTRATION - Edit the SVG here -->
+                    <div class="artifact-main-image">
+                        <svg viewBox="0 0 400 160" class="artifact-detail-silhouette">
+                            <!-- EDIT THIS SVG: Replace with artifact-specific illustration -->
+                            <ellipse cx="120" cy="100" rx="50" ry="30" fill="currentColor"/>
+                            <ellipse cx="200" cy="70" rx="40" ry="24" fill="currentColor"/>
+                            <ellipse cx="270" cy="90" rx="44" ry="26" fill="currentColor"/>
+                            <path d="M100,130 Q200,40 300,120" stroke="currentColor" stroke-width="2" fill="none" stroke-dasharray="4,4"/>
+                        </svg>
+                    </div>
+                    
+                    <!-- GALLERY SECTION - Edit media files and descriptions -->
+                    <div class="artifact-gallery">
+                        <div class="gallery-header">
+                            <h3 class="gallery-title">Gallery</h3>
+                            <p class="gallery-subtitle">Photos and videos from the making process</p>
+                        </div>
+                        
+                        <div class="media-grid">
+                            <!-- EDIT MEDIA ITEMS: Change data-src paths and labels for each artifact -->
+                            <div class="media-item photo-item" data-type="image" data-src="images/balance-stones/wood-selection.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/balance-stones/wood-selection.jpg" alt="Stone Selection" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Stone Selection</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/balance-stones/carving.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/balance-stones/carving.jpg" alt="Shaping Process" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Shaping Process</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item video-item" data-type="video" data-src="images/balance-stones/bell-tuning.mp4">
+                                <div class="media-thumbnail">
+                                    <video class="thumbnail-video" muted>
+                                        <source src="images/balance-stones/bell-tuning.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">▶️</div>
+                                        <div class="overlay-label">Balance Testing</div> <!-- EDIT: Change label -->
+                                        <div class="video-duration">1:52</div> <!-- EDIT: Change duration -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/balance-stones/oil-finish.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/balance-stones/oil-finish.jpg" alt="Surface Finishing" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Surface Finishing</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/balance-stones/complete-series.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/balance-stones/complete-series.jpg" alt="Complete Collection" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Complete Collection</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item video-item" data-type="video" data-src="images/balance-stones/sound-demo.mp4">
+                                <div class="media-thumbnail">
+                                    <video class="thumbnail-video" muted>
+                                        <source src="images/balance-stones/sound-demo.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">▶️</div>
+                                        <div class="overlay-label">Usage Demo</div> <!-- EDIT: Change label -->
+                                        <div class="video-duration">2:15</div> <!-- EDIT: Change duration -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="gallery-note">
+                            <!-- EDIT: Change gallery description -->
+                            <p class="note-text">Each set carries unique variations in stone texture, weight balance, and natural patterns. Photos and videos show the making process rather than polished marketing shots.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- DETAILED CONTENT SECTIONS - Edit all story, materials, usage, and edition details -->
+                <div class="artifact-details-section">
+                    <div class="detail-section">
+                        <h2 class="section-header">The Story</h2>
+                        <div class="story-content">
+                            <!-- EDIT: Replace with artifact-specific story -->
+                            <p class="content-text">These stones emerged from a fascination with the ancient practice of stone balancing, but reimagined for contemporary contemplative practice. Unlike traditional meditation objects, these are designed to be handled, stacked, and rearranged as part of a mindful routine.</p>
+                            
+                            <p class="content-text">The first prototypes were too uniform, lacking the subtle variations that make balancing genuinely engaging. Through multiple iterations, I discovered that slight asymmetries in weight distribution create the most satisfying balancing challenges—difficult enough to require attention, simple enough to achieve success.</p>
+                            
+                            <p class="content-text">Each set contains three stones that work together in various combinations. The largest provides a stable base, the medium serves as either foundation or top piece, and the smallest offers delicate finishing possibilities. Together, they create countless balancing opportunities.</p>
+                            
+                            <p class="content-text">Made from locally sourced river stones, each piece is hand-shaped and weighted to create unique balancing dynamics. No two sets behave identically, making each collection a distinct contemplative tool.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Materials & Construction</h2>
+                        <div class="specs-grid">
+                            <!-- EDIT: Update all specifications -->
+                            <div class="spec-item">
+                                <span class="spec-label">Primary Material</span>
+                                <span class="spec-value">River Stone</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Finish</span>
+                                <span class="spec-value">Natural Polish</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Weight Range</span>
+                                <span class="spec-value">180g - 320g per set</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Stone Count</span>
+                                <span class="spec-value">3 pieces per set</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Size Range</span>
+                                <span class="spec-value">4cm - 9cm diameter</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Creation Time</span>
+                                <span class="spec-value">~6 hours per set</span>
+                            </div>
+                        </div>
+                        
+                        <div class="construction-notes">
+                            <!-- EDIT: Update construction details -->
+                            <p class="content-text">Each stone is carefully selected for its natural balance properties, then hand-shaped using traditional stone-working techniques. The surfaces are polished to a smooth, tactile finish while preserving the natural character of the stone.</p>
+                            
+                            <p class="content-text">Weight distribution is subtly adjusted during the shaping process to create engaging balance points. The finish is achieved through progressive polishing, creating surfaces that feel pleasant to handle repeatedly.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Living With It</h2>
+                        <div class="usage-content">
+                            <!-- EDIT: Update usage information -->
+                            <p class="content-text">These stones invite slow, meditative interaction. Some people use them as a morning ritual, creating different balance configurations to center themselves for the day. Others keep them on a desk for brief contemplative breaks during work.</p>
+                            
+                            <p class="content-text">There's no correct way to arrange them—the practice is in the attempting. Each attempt at balance requires present-moment attention, naturally quieting mental chatter and creating space for clarity.</p>
+                            
+                            <p class="content-text">The stones weather beautifully, developing a patina from handling over time. They can be displayed when not in use, serving as sculptural objects that hint at their interactive nature.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Edition Details</h2>
+                        <div class="edition-info">
+                            <!-- EDIT: Update edition information -->
+                            <p class="content-text">Forty sets were created between October and December 2024. Each set is numbered and includes stones that have been specifically matched for complementary balancing dynamics.</p>
+                            
+                            <div class="edition-status">
+                                <div class="status-item">
+                                    <span class="status-label">Total Made</span>
+                                    <span class="status-value">40 sets</span> <!-- EDIT: Update quantity -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Available</span>
+                                    <span class="status-value status-available">17 remaining</span> <!-- EDIT: Update availability -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Price</span>
+                                    <span class="status-value">₹ 8,750</span> <!-- EDIT: Update price -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Completion Date</span>
+                                    <span class="status-value">December 2024</span> <!-- EDIT: Update completion date -->
+                                </div>
+                            </div>
+                            
+                            <div class="availability-note">
+                                <!-- EDIT: Update availability message -->
+                                <p class="note-text">This collection is still being created, with new sets becoming available as they're completed. Each set is tested for balanced dynamics before being offered.</p>
+                                
+                                <div class="next-steps">
+                                    <a href="custom-request.html" class="btn btn-primary">Request Something Similar</a>
+                                    <a href="index.html" class="btn">View Other Artifacts</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Media Modal -->
+    <div class="media-modal" id="mediaModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-media-container" id="modalMediaContainer">
+                <!-- Media content will be injected here -->
+            </div>
+            <div class="modal-info">
+                <h3 class="modal-title" id="modalTitle"></h3>
+                <p class="modal-description" id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="artifact-balance-stones-gallery.js"></script>
+</body>
+</html>
