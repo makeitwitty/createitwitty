@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PAGE TITLE - Edit the artifact name here -->
+    <title>Thought Organizer - Create it Witty</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ambient-overlay"></div>
+    
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="brand-header">
+                <h1 class="brand-name">Create it Witty</h1>
+                <p class="brand-tagline">Unique Custom Artifacts</p>
+            </div>
+            
+            <div class="artifact-navigation">
+                <div class="section-title">Navigation</div>
+                <div class="nav-list">
+                    <div class="nav-item">
+                        <a href="index.html" class="nav-name">← Back to Collection</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="about.html" class="nav-name">About</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="process.html" class="nav-name">Process</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="custom-request.html" class="nav-name">Custom Requests</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="contact.html" class="nav-name">Contact</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SIDEBAR INFO - Edit artifact details here -->
+            <div class="artifact-quick-info">
+                <div class="section-title">Quick Info</div>
+                <div class="quick-info-item">
+                    <span class="info-label">Edition</span>
+                    <span class="info-value">12/20 Available</span> <!-- EDIT: Change availability status -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Collection</span>
+                    <span class="info-value">Workflow Series</span> <!-- EDIT: Change collection name -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Status</span>
+                    <span class="info-value status-available">Available</span> <!-- EDIT: Change status (status-available or status-sold-out) -->
+                </div>
+                <div class="quick-info-item">
+                    <span class="info-label">Created</span>
+                    <span class="info-value">Fall 2024</span> <!-- EDIT: Change creation time -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <!-- HEADER SECTION - Edit artifact name and description here -->
+            <div class="artifact-header">
+                <div class="artifact-breadcrumb">
+                    <span class="breadcrumb-item">Workflow Series</span> <!-- EDIT: Change collection name -->
+                    <span class="breadcrumb-separator">→</span>
+                    <span class="breadcrumb-current">Thought Organizer</span> <!-- EDIT: Change artifact name -->
+                </div>
+                <h1 class="artifact-title">Thought Organizer</h1> <!-- EDIT: Change artifact name -->
+                <p class="artifact-subtitle">A tactile system for sorting scattered ideas</p> <!-- EDIT: Change subtitle/description -->
+            </div>
+            
+            <div class="artifact-content">
+                <div class="artifact-visual-section">
+                    <!-- MAIN ARTIFACT ILLUSTRATION - Edit the SVG here -->
+                    <div class="artifact-main-image">
+                        <svg viewBox="0 0 400 160" class="artifact-detail-silhouette">
+                            <!-- EDIT THIS SVG: Replace with artifact-specific illustration -->
+                            <rect x="80" y="60" width="240" height="40" rx="6" fill="currentColor" opacity="0.6"/>
+                            <rect x="90" y="40" width="60" height="20" rx="3" fill="currentColor"/>
+                            <rect x="170" y="40" width="60" height="20" rx="3" fill="currentColor"/>
+                            <rect x="250" y="40" width="60" height="20" rx="3" fill="currentColor"/>
+                            <rect x="90" y="120" width="60" height="20" rx="3" fill="currentColor"/>
+                            <rect x="170" y="120" width="60" height="20" rx="3" fill="currentColor"/>
+                            <rect x="250" y="120" width="60" height="20" rx="3" fill="currentColor"/>
+                            <circle cx="120" cy="80" r="8" fill="currentColor" opacity="0.4"/>
+                            <circle cx="200" cy="80" r="8" fill="currentColor" opacity="0.4"/>
+                            <circle cx="280" cy="80" r="8" fill="currentColor" opacity="0.4"/>
+                            <path d="M60,80 L80,80" stroke="currentColor" stroke-width="2"/>
+                            <path d="M320,80 L340,80" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    
+                    <!-- GALLERY SECTION - Edit media files and descriptions -->
+                    <div class="artifact-gallery">
+                        <div class="gallery-header">
+                            <h3 class="gallery-title">Gallery</h3>
+                            <p class="gallery-subtitle">Photos and videos from the making process</p>
+                        </div>
+                        
+                        <div class="media-grid">
+                            <!-- EDIT MEDIA ITEMS: Change data-src paths and labels for each artifact -->
+                            <div class="media-item photo-item" data-type="image" data-src="images/thought-organizer/wood-selection.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/thought-organizer/wood-selection.jpg" alt="Component Planning" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Component Planning</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/thought-organizer/carving.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/thought-organizer/carving.jpg" alt="Box Construction" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Box Construction</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item video-item" data-type="video" data-src="images/thought-organizer/bell-tuning.mp4">
+                                <div class="media-thumbnail">
+                                    <video class="thumbnail-video" muted>
+                                        <source src="images/thought-organizer/bell-tuning.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">▶️</div>
+                                        <div class="overlay-label">Token Creation</div> <!-- EDIT: Change label -->
+                                        <div class="video-duration">3:12</div> <!-- EDIT: Change duration -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/thought-organizer/oil-finish.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/thought-organizer/oil-finish.jpg" alt="Surface Finishing" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Surface Finishing</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item photo-item" data-type="image" data-src="images/thought-organizer/complete-series.jpg">
+                                <div class="media-thumbnail">
+                                    <img src="images/thought-organizer/complete-series.jpg" alt="Complete Systems" class="thumbnail-image">
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">🔍</div>
+                                        <div class="overlay-label">Complete Systems</div> <!-- EDIT: Change label -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="media-item video-item" data-type="video" data-src="images/thought-organizer/sound-demo.mp4">
+                                <div class="media-thumbnail">
+                                    <video class="thumbnail-video" muted>
+                                        <source src="images/thought-organizer/sound-demo.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="media-overlay">
+                                        <div class="overlay-icon">▶️</div>
+                                        <div class="overlay-label">Usage Demo</div> <!-- EDIT: Change label -->
+                                        <div class="video-duration">2:48</div> <!-- EDIT: Change duration -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="gallery-note">
+                            <!-- EDIT: Change gallery description -->
+                            <p class="note-text">Each system includes unique token sets and compartment layouts. Photos and videos show the making process rather than polished marketing shots.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- DETAILED CONTENT SECTIONS - Edit all story, materials, usage, and edition details -->
+                <div class="artifact-details-section">
+                    <div class="detail-section">
+                        <h2 class="section-header">The Story</h2>
+                        <div class="story-content">
+                            <!-- EDIT: Replace with artifact-specific story -->
+                            <p class="content-text">This system emerged from a personal struggle with digital note-taking. I found myself with hundreds of fragmented thoughts scattered across apps, notebooks, and sticky notes, but no satisfying way to see connections or prioritize what mattered. The solution needed to be physical, visual, and flexible.</p>
+                            
+                            <p class="content-text">The first prototype was a simple wooden tray with moveable dividers, but it lacked the tactile feedback that makes physical organization satisfying. The breakthrough came with the token system—small wooden pieces that represent ideas, allowing you to physically sort, group, and rearrange thoughts in space.</p>
+                            
+                            <p class="content-text">Each organizer contains three types of tokens: circles for core ideas, squares for tasks, and triangles for connections. The compartments can be reconfigured using wooden dividers, creating custom layouts for different thinking styles or project phases. It's analog computing for the mind.</p>
+                            
+                            <p class="content-text">Made from cherry wood with brass hardware, each system develops its own workflow patterns through use. The tokens acquire a subtle patina from handling, and the compartments naturally shape themselves to frequently used configurations. It becomes more personal and effective with time.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Materials & Construction</h2>
+                        <div class="specs-grid">
+                            <!-- EDIT: Update all specifications -->
+                            <div class="spec-item">
+                                <span class="spec-label">Primary Material</span>
+                                <span class="spec-value">Cherry Wood</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Hardware</span>
+                                <span class="spec-value">Brass Fittings</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Token Count</span>
+                                <span class="spec-value">48 pieces per set</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Dimensions</span>
+                                <span class="spec-value">32cm × 24cm × 6cm</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Weight</span>
+                                <span class="spec-value">~850g complete</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Creation Time</span>
+                                <span class="spec-value">~18 hours per system</span>
+                            </div>
+                        </div>
+                        
+                        <div class="construction-notes">
+                            <!-- EDIT: Update construction details -->
+                            <p class="content-text">Each tray is cut from a single piece of cherry wood, with finger-jointed corners and a hand-rubbed oil finish. The brass dividers slide smoothly in precision-cut channels, allowing infinite layout possibilities without gaps or wobble.</p>
+                            
+                            <p class="content-text">The tokens are individually turned and sanded to identical dimensions, then given a light oil finish that improves with handling. Each shape has slightly different proportions to make them easy to distinguish by touch alone.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Living With It</h2>
+                        <div class="usage-content">
+                            <!-- EDIT: Update usage information -->
+                            <p class="content-text">Use it for any thinking that benefits from spatial organization—project planning, decision making, brainstorming, or just sorting through scattered thoughts. The tokens can represent anything: tasks, ideas, people, priorities, or abstract concepts that need arranging.</p>
+                            
+                            <p class="content-text">Some people use it daily for task prioritization, others for occasional project planning or creative brainstorming. The system adapts to your thinking style rather than imposing a rigid methodology. There's something deeply satisfying about physically moving ideas around until they click into place.</p>
+                            
+                            <p class="content-text">The wood develops character through use, and the brass dividers acquire a warm patina. Many people find that the tactile nature of the system helps them think more clearly than digital alternatives. It sits beautifully on desks when not in use, ready for the next thinking session.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h2 class="section-header">Edition Details</h2>
+                        <div class="edition-info">
+                            <!-- EDIT: Update edition information -->
+                            <p class="content-text">Twenty systems were created between September and November 2024. Each includes a complete token set and reconfigurable divider system. The wood grain ensures no two systems look identical, and each develops its own character through use.</p>
+                            
+                            <div class="edition-status">
+                                <div class="status-item">
+                                    <span class="status-label">Total Made</span>
+                                    <span class="status-value">20 systems</span> <!-- EDIT: Update quantity -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Available</span>
+                                    <span class="status-value status-available">12 remaining</span> <!-- EDIT: Update availability -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Price</span>
+                                    <span class="status-value">₹ 14,800</span> <!-- EDIT: Update price -->
+                                </div>
+                                <div class="status-item">
+                                    <span class="status-label">Completion Date</span>
+                                    <span class="status-value">November 2024</span> <!-- EDIT: Update completion date -->
+                                </div>
+                            </div>
+                            
+                            <div class="availability-note">
+                                <!-- EDIT: Update availability message -->
+                                <p class="note-text">Each system includes usage guides with suggested layouts for common thinking tasks. Additional token sets or custom divider configurations can be created on request for specific workflow needs.</p>
+                                
+                                <div class="next-steps">
+                                    <a href="custom-request.html" class="btn btn-primary">Request Something Similar</a>
+                                    <a href="index.html" class="btn">View Other Artifacts</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Media Modal -->
+    <div class="media-modal" id="mediaModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-media-container" id="modalMediaContainer">
+                <!-- Media content will be injected here -->
+            </div>
+            <div class="modal-info">
+                <h3 class="modal-title" id="modalTitle"></h3>
+                <p class="modal-description" id="modalDescription"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="artifact-thought-organizer-gallery.js"></script>
+</body>
+</html>
